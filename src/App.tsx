@@ -34,7 +34,7 @@ function App() {
       <Collapsible title="Big Bunny 2">
         <VideoPlayer
           videoUrl='https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4'
-          indicator={(isPlaying) => <span>{isPlaying ? "🏃" : "✋" }</span>}
+          indicator={(isPlaying) => <span className='indicator'>{isPlaying ? "🏃" : "✋" }</span>}
         />
       </Collapsible>
       <Collapsible title="Big Bunny 3">
